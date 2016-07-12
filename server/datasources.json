@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongodb": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://mongodb:mongodb_password@localhost:27017/hxUser",
+    "database": "hxUser",
+    "password": "mongodb_password",
+    "name": "mongodb",
+    "user": "mongodb",
+    "connector": "mongodb"
   }
 }
