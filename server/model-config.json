@@ -31,5 +31,15 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "username": {
+    "dataSource": "mongodb",
+    "public": false
+  },
+  "users": {
+    "dataSource": "mongodb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

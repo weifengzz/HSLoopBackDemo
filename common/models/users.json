@@ -1,0 +1,25 @@
+{
+  "name": "users",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userName": {
+      "type": "string",
+      "required": true,
+      "comments": "用户名"
+    },
+    "password": {
+      "type": "string",
+      "required": true,
+      "comments": "密码"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
